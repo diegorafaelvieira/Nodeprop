@@ -59,3 +59,17 @@ img {max-width: 100%;}
 .social-icons a:last-child {margin-right: 0;}
 .social-icons a:hover {color: rgb(255, 255, 255);}
 .copyright {margin-top: 2%; color: rgba(255, 255, 255, 0.7);}
+
+/* MEDIA TYPES
+-screen
+Para monitores ou dispositivos com telas coloridas e resolução adequada.
+-print
+Para impresoras. Muito usado para dar uma visão de impressão do site.
+*/
+
+/* MOBILE FIRST */
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (min-width: 480px) {
+  .logo {width: 214px; float: left; background: url(../img/logo.png) center center/214px no-repeat;}
+  .btn {font-size: 2em;}
+}
